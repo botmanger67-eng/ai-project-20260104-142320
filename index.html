@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPS Controller & Personal Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JARVIS</h1>
+            <p>Your AI-Powered VPS Controller</p>
+        </header>
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <h2>Tasks</h2>
+                    <button id="refresh-tasks">↻ Refresh</button>
+                </div>
+                <div class="task-list" id="task-list">
+                    <!-- Task items will be dynamically added here -->
+                </div>
+            </div>
+            <div class="chat-area">
+                <div class="chat-header">
+                    <h2>Chat with JARVIS</h2>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Chat messages will be dynamically added here -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Type your command...">
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
